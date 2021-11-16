@@ -43,7 +43,7 @@ const Home: NextPage = ({ allPostsData }: any) => {
               </Link>
               <br />
               <small className={utilStyles.lightText}>
-                {date && <Date dateString={date} />}
+                <Date dateString={date} />
               </small>
             </li>
           ))}
